@@ -4,7 +4,6 @@ import sys
 
 
 def eval(trecrunFile, qrelsFile, outputFile):
-    # Your function start here ...
     fleRun = open(trecrunFile, 'rt')
     fleQrels = open(qrelsFile, 'rt')
     fleOut = open(outputFile, 'w')
@@ -291,4 +290,3 @@ if __name__ == '__main__':
     outputFile = sys.argv[3] if argv_len >= 4 else "ql.eval"
 
     eval(runFile, qrelsFile, outputFile)
-    # Feel free to change anything here ...
