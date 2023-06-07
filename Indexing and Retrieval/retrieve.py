@@ -261,14 +261,11 @@ if __name__ == '__main__':
 
     index = buildIndex(inputFile)
     if queriesFile == 'showIndex':
-        # Invoke your debug function here (Optional)
         f = 5
     elif queriesFile == 'showTerms':
-        # Invoke your debug function here (Optional)
         d = 5
     else:
         length(inputFile)
         count(inputFile)
         runQueries(index, queriesFile, outputFile)
 
-    # Feel free to change anything
